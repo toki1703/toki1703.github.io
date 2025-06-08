@@ -1,0 +1,34 @@
+title: ときらぼ
+author: ときくん
+description: Powered by GitHub Pages & Jekyll
+  
+plugins:
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-redirect-from
+
+minima_reboot:
+  date_format: "%b %-d, %Y"
+  date_format_short: "%b %-d"
+
+header_pages:
+- minibookx_100.md
+- xiaomi.md
+- pixelw3.md
+- other.md
+- donate.md
+- link.md
+- about.md
+
+footer_icons:
+- username: toki1703
+  url: https://github.com/toki1703
+  icon: icon-github.svg
+
+
+markdown: kramdown
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - minima-reboot.gemspec
